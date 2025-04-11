@@ -1,0 +1,65 @@
+/* CSS externo */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 2em; /*1rem = 16px -> 1em = M */
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header {
+    text-decoration: none;
+    background-color: #0d80d2;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.1);
+    position: sticky; /* pode ser necessario top, left, bottom ou right*/
+    top: 0;
+   
+   
+
+}
+
+header ul {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: 700;
+    padding: .5rem 1rem;
+}                                                       
+
+header a:hover {
+    font-size: 25px;
+    transition: font-size 0.3s ease;
+    
+}
+
+section {
+    height: 80vh;
+    margin: 2rem;
+    scroll-margin-top: 4rem; 
+    padding: 1rem;
+    border: 1px solid #000000;
+
+}
+
+
+
+
+
+p {
+    margin-bottom: 1rem;
+}
